@@ -42,5 +42,6 @@ public class Practice02StaticLayoutView extends View {
         canvas.save();
         canvas.translate(50, 40);
         staticLayout.draw(canvas);
+        canvas.restore();
     }
 }
